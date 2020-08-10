@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "server:static",
+			"problemMatcher": [],
+			"label": "npm: server:static",
+			"detail": "json-server --watch ./src/data/db.json --port 8080"
+		}
+	]
+}

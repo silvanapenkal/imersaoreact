@@ -1,7 +1,7 @@
 const URL_BACKEND_TOP = window.location.hostname.includes('localhost')
-  ? 'http://localhost:8080/categorias)'
+  ? 'http://localhost:8080'
   : 'https://devsoutinhoflix.herokuapp.com';
 
-export default{
-  ACKEND_TOP,
+export default {
+  URL_BACKEND_TOP,
 };
